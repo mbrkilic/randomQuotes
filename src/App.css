@@ -14,7 +14,8 @@
 }
 
 .App-header {
-  background-color: #282c34;
+ 
+  background-image: url(./assets/mountain.jpg);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,4 +36,21 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.quotes {
+  
+    background-color:#fff;
+    color: black;
+    padding:20px;
+    margin: auto;
+    border-radius:10px;
+    box-shadow:3px 3px 10px #0009;
+    max-width:600px
+   
+}
+
+.img {
+  max-width: 35px;
+  max-height: 35px
 }
